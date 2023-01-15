@@ -308,6 +308,10 @@ function init() {
   });
 
   myMap.geoObjects.add(myPlacemark);
+  myMap.behaviors.disable('scrollZoom');
+  myMap.controls.add('zoomControl', {
+    float: 'right'
+  });
 }
 
 
