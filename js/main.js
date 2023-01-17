@@ -73,6 +73,8 @@ const mySwiper = new Swiper('.slider-2', {
   slidesPerGroup: 1,
   spaceBetween: 34,
 
+  height: 350,
+
   breakpoints: {
     1220: {
       slidesPerView: '3',

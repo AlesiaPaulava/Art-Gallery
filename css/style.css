@@ -2246,8 +2246,13 @@ img {
 
 .form {
   display: flex;
+  gap: 20px;
   flex-shrink: 0;
   flex-grow: 1
+}
+
+.feedback__wrapper {
+  gap: 20px;
 }
 
 .feedback__form-text {
