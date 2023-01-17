@@ -237,10 +237,6 @@
     width: 280px;
   }
 
-  .swiper-container.slider-2 {
-    height: 315px;
-  }
-
   .choices__inner {
     min-height: 38px;
   }
@@ -503,10 +499,6 @@
     margin-top: 66px;
   }
 
-  .swiper-container.slider-2 {
-    min-height: 330px;
-  }
-
   .choices__inner {
     min-height: 38px;
   }
@@ -646,16 +638,12 @@
     gap: 0;
   }
   .feedback__form-block {
+    flex-basis: 100%;
     margin-bottom: 20px;
   }
 }
 
 @media (max-width: 456px) {
-
-  .container {
-    padding-left: 15px;
-    padding-right: 5px;
-  }
 
   /* Header */
 
@@ -778,18 +766,11 @@
   .hero__content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     max-width: 249px;
-    margin-left: 21px;
-  }
-
-  .hero__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 249px;
-    margin-left: 21px;
-  }
+    margin: 0 auto;
+}
 
   .hero__title {
     font-weight: 700;
@@ -831,7 +812,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
-    max-width: 280px;
+    /* max-width: 280px; */
   }
 
   .common-title {
@@ -868,7 +849,7 @@
   }
 
   .gallery__filter-container {
-    width: 290px;
+    /* width: 290px; */
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -893,10 +874,6 @@
     height: 100%;
   }
 
-  .swiper-container.slider-2 {
-    min-height: 367px;
-  }
-
   .swiper {
     margin-top: 0;
   }
@@ -908,6 +885,10 @@
   .gallery__swiper-nav {
     top: 393px;
     left: 79px;
+  }
+
+  .gallery__swiper-controls {
+    width: 100%;
   }
 
   .choices {
@@ -1007,24 +988,12 @@
     margin-bottom: 13px;
   }
 
-  .catalog__painter-text {
-    max-width: 96%;
-  }
-
   .accordion__content-baner {
     width: 79px;
     height: 118px;
   }
 
-  .catalog__content-wrap {
-    width: 290px;
-  }
-
   /* Events */
-
-  .events__wrapper {
-    max-width: 290px;
-  }
 
   .events__title {
     font-size: 28px;
@@ -1098,6 +1067,7 @@
 
   .projects__text {
     margin-bottom: 51px;
+    max-width: 100%;
   }
 
   .projects__text-link {
@@ -1149,12 +1119,12 @@
   }
 
   .feedback__form-input {
-    max-width: 290px;
+    max-width: 100%;
     padding: 4px 24px;
   }
 
   .feedback__form-submit {
-    width: 96%;
+    width: 100%;
     font-size: 12px;
     line-height: 16px;
     padding-bottom: 12px;
